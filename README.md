@@ -67,13 +67,10 @@ Abrir no android Studios
 
 ... 
 
-Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio projeto e verfique se o passo a passo funciona**
-
-
 
 ## Tarefas em aberto
 
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação
+Funcionalidades que ainda precisam ser implementadas na aplicação
 
 :memo: Salvar as tarefas no Firebase 
 
