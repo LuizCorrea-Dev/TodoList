@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "514675593370",
+    "project_id": "todo-list-bootcamp-kotlin",
+    "storage_bucket": "todo-list-bootcamp-kotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514675593370:android:440f1288ec9f45c5124f23",
+        "android_client_info": {
+          "package_name": "com.luizbcorrea.todolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514675593370-n4r49ro40608lqilphitc3imavu7tnjk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5ROYoYvd_a6zwhK9ri4kLhLZVLwrMrJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514675593370-n4r49ro40608lqilphitc3imavu7tnjk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

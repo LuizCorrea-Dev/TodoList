@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red_primary">#9D0808</color>
+    <color name="red_secondary">#CD0001</color>
+
+    <color name="task_completed">#0BE114</color>
+    <color name="task_deleted">#CD0001</color>
+</resources>
