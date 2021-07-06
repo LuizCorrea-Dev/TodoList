@@ -24,12 +24,12 @@
 
 ... 
 
-Insira os tópicos do README em links para facilitar a navegação do leitor
+
 
 ## Descrição do projeto 
 
 <p align="justify">
-  Descrição breve do projeto compondo um paragrafo ou dois. 
+  O objetivo do projeto é criar um App de To do list do zero mostrando o processo de desenvolvimento usando Kotlin, uma das linguagens de programação de maior ascensão dos últimos anos.
 </p>
 
 
