@@ -5,47 +5,117 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.MainActivity">
+    android:layout_margin="16dp"
+    tools:context=".ui.MainActivity"
+    android:id="@+id/area"  >
 
     <TextView
         android:id="@+id/tv_title"
-        android:layout_width="wrap_content"
+        android:visibility="visible"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
         android:text="@string/txt_task_title"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/rv_days_filter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <include
-        android:id="@+id/include_empty"
-        layout="@layout/empty_state"
-        tools:visibility="visible" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/rv_days_filter"
+        app:layout_constraintEnd_toEndOf="@+id/button_clean_filter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
 
+        >
+            <TextView
+                android:id="@+id/tv_filter_active"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:background="@color/red_secondary"
+                tools:text="Todas as tarefas" />
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_clean_filter"
+        android:visibility="visible"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:enabled="false"
+        android:textSize="12sp"
+        android:background="@drawable/ic_filter"
+        app:layout_constraintBottom_toTopOf="@+id/rv_days_filter"
+        app:layout_constraintEnd_toEndOf="@+id/area"
+        app:layout_constraintTop_toTopOf="@+id/area"
+        />
+
+    <include
+        android:id="@+id/include_state"
+        layout="@layout/empty_state"
+        android:visibility="gone"
+        tools:visibility="gone" />
+
+    <include
+        android:id="@+id/include_state_loading"
+        layout="@layout/loading_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="32dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rv_days_filter"
+        tools:visibility="visible" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_tasks"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="16dp"
-        tools:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="70dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        app:layout_constraintBottom_toTopOf="@+id/fab"
-        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        app:layout_constraintBottom_toBottomOf="@+id/include_state_loading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_days_filter"
         tools:itemCount="8"
-        tools:listitem="@layout/item_task"
-        />
+        tools:listitem="@layout/item_task" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+        android:id="@+id/fab_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"
         android:contentDescription="@string/txt_add_task"
-        app:srcCompat="@drawable/ic_add" />
+        android:src="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_days_filter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:itemCount="2"
+        tools:listitem="@layout/item_filter_day" />
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

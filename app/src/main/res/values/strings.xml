@@ -1,15 +1,27 @@
 <resources>
     <string name="app_name">TodoList</string>
+    <!--  text  -->
     <string name="txt_task_title">Tarefas</string>
     <string name="txt_add_task">Adicionar tarefa</string>
     <string name="txt_title_add_task">Criar Tarefa</string>
+    <!--  Labels hint Inputs  -->
     <string name="hint_title_add">Titulo</string>
     <string name="hint_description_add">Descrição</string>
     <string name="hint_time_select">Hora</string>
     <string name="hint_date_select">Data</string>
-    <string name="label_cancel_task_bn">Cancelar</string>
-    <string name="label_create_task_bn">Criar Tarefa</string>
+    <!--  Labels Buttons  -->
+    <string name="label_button_cancel_task">Cancelar</string>
+    <string name="label_button_create_task">Criar Tarefa</string>
+    <string name="label_button_update_task">Atualizar</string>
     <string name="action_edit_title">Editar</string>
     <string name="action_delete_title">Excluir</string>
+    <!--  messages  -->
     <string name="label_you_dont_have_tasks">Ops! Você não possui\nnenhuma tarefa</string>
+    <string name="label_new_task_success">Tarefa criada com sucesso!</string>
+    <string name="label_update_task_success">Tarefa Atualizada com sucesso!</string>
+    <string name="label_field_mandatory">Campo Obrigatório!</string>
+    <!--  Labels filters  -->
+    <string name="label_all_tasks_by_date_desc"></string>
+    <string name="label_tasks_filtered_by_date">. %1$s .</string>
+    <string name="label_loading">carregando...</string>
 </resources>
