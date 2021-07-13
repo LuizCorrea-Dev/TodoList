@@ -35,7 +35,7 @@
 
 ## Funcionalidades
 
-:heavy_check_mark: Cria  tarefa  
+:heavy_check_mark: Cria tarefa  
 
 :heavy_check_mark: Edita tarefa  
 
@@ -43,9 +43,11 @@
 
 :heavy_check_mark: Lista de tarefas  
 
+:heavy_check_mark: filtro por data
+
 ## Layout da Aplicação :dash:
 
-> ![](https://github.com/LuizCorrea-Dev/TodoList/blob/master/imagens/screenshot.png?raw=true)
+> ![](https://github.com/LuizCorrea-Dev/TodoList/blob/master/imagens/screenshots.png?raw=true)
 
 
 
@@ -75,8 +77,6 @@ Funcionalidades que ainda precisam ser implementadas na aplicação
 :memo: Salvar as tarefas no Firebase 
 
 :memo: Implementar notifications
-
-:memo: criar filtro por data
 
 :memo: criar campo de busca
 
