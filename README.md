@@ -80,7 +80,7 @@ Funcionalidades que ainda precisam ser implementadas na aplicação
 
 :memo: criar campo de busca
 
-## Desenvolvedores/Contribuintes <img src="https://octocat-generator-assets.githubusercontent.com/my-octocat-1625603696239.png" width=115>
+## Desenvolvedores <img src="https://octocat-generator-assets.githubusercontent.com/my-octocat-1625603696239.png" width=115>
 
 
 
