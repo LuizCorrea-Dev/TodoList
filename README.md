@@ -1,4 +1,4 @@
-<h1>Todo List - Bootcamp Kotlin Santander</h1> 
+<h1>Todo List - Bootcamp Kotlin</h1> 
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=kotlin&message=language&color=blue&style=for-the-badge&logo=kotlin"/>  
@@ -8,7 +8,7 @@
 </p>
 
 
-> Status do Projeto: :heavy_check_mark: concluído a proposta de app Todo List no Bootcamp Kotlin do Santander na plataforma da Digital Innovation One
+> Status do Projeto: :heavy_check_mark: concluído a proposta de app Todo List no Bootcamp Kotlin na plataforma da Digital Innovation One
 
 ### Tópicos 
 
