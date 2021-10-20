@@ -1,4 +1,4 @@
-<h1>Todo List - Bootcamp Kotlin Santander</h1> 
+<h1>Todo List - Bootcamp Kotlin</h1> 
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=kotlin&message=language&color=blue&style=for-the-badge&logo=kotlin"/>  
@@ -8,7 +8,7 @@
 </p>
 
 
-> Status do Projeto: :heavy_check_mark: concluído a proposta de app Todo List no Bootcamp Kotlin do Santander na plataforma da Digital Innovation One
+> Status do Projeto: :heavy_check_mark: concluído a proposta de app Todo List no Bootcamp Kotlin na plataforma da Digital Innovation One
 
 ### Tópicos 
 
@@ -35,7 +35,7 @@
 
 ## Funcionalidades
 
-:heavy_check_mark: Cria  tarefa  
+:heavy_check_mark: Cria tarefa  
 
 :heavy_check_mark: Edita tarefa  
 
@@ -43,9 +43,11 @@
 
 :heavy_check_mark: Lista de tarefas  
 
+:heavy_check_mark: filtro por data
+
 ## Layout da Aplicação :dash:
 
-> ![](https://github.com/LuizCorrea-Dev/TodoList/blob/master/imagens/screenshot.png?raw=true)
+> ![](https://github.com/LuizCorrea-Dev/TodoList/blob/master/imagens/screenshots.png?raw=true)
 
 
 
@@ -76,11 +78,9 @@ Funcionalidades que ainda precisam ser implementadas na aplicação
 
 :memo: Implementar notifications
 
-:memo: criar filtro por data
-
 :memo: criar campo de busca
 
-## Desenvolvedores/Contribuintes <img src="https://octocat-generator-assets.githubusercontent.com/my-octocat-1625603696239.png" width=115>
+## Desenvolvedores <img src="https://octocat-generator-assets.githubusercontent.com/my-octocat-1625603696239.png" width=115>
 
 
 
